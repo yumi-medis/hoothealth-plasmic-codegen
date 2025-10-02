@@ -24,7 +24,7 @@
     {
       "projectId": "czrpvLfdRGgF3py81DP1YF",
       "projectApiToken": "vYxFZzshR1U4zON3P5WntfIo4WSyKdztzbkb6tqPtRURetEKka232A2MZsMk0ReduY2XDWtm6J9484UkXKWA",
-      "projectName": "CMS starter",
+      "projectName": "HootHealth Codegen",
       "version": "latest",
       "cssFilePath": "plasmic/cms_starter/plasmic.module.css",
       "components": [
@@ -68,14 +68,7 @@
     }
   ],
   "globalVariants": {
-    "variantGroups": [
-      {
-        "id": "sZS9YzRzYW63",
-        "name": "Screen",
-        "projectId": "czrpvLfdRGgF3py81DP1YF",
-        "contextFilePath": "plasmic/cms_starter/PlasmicGlobalVariant__Screen.tsx"
-      }
-    ]
+    "variantGroups": []
   },
   "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {

@@ -19,11 +19,6 @@
 .root > * {
   grid-column: 4;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .root > * {
-    grid-column: 4;
-  }
-}
 .section {
   display: grid;
   position: relative;
@@ -45,11 +40,6 @@
 }
 .section > * {
   grid-column: 4;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .section > * {
-    grid-column: 4;
-  }
 }
 .h1 {
   position: relative;

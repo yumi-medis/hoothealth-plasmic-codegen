@@ -134,13 +134,6 @@
   --mixin-Eu5vz7CXup8d_white-space: pre-wrap;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-  .plasmic_default_styles {
-    --mixin-ztZAnNxIr6te_font-size: 48px;
-    --mixin-ztZAnNxIr6te_white-space: pre-wrap;
-  }
-}
-
 :where(.all) {
   display: block;
   white-space: inherit;
