@@ -6,8 +6,8 @@
     "reactRuntime": "classic"
   },
   "style": {
-    "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+    "scheme": "css",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
   },
   "images": {
     "scheme": "public-files",
@@ -26,18 +26,18 @@
       "projectApiToken": "vYxFZzshR1U4zON3P5WntfIo4WSyKdztzbkb6tqPtRURetEKka232A2MZsMk0ReduY2XDWtm6J9484UkXKWA",
       "projectName": "HootHealth Codegen",
       "version": "latest",
-      "cssFilePath": "plasmic/cms_starter/plasmic.module.css",
+      "cssFilePath": "plasmic/hoot_health_codegen/plasmic.css",
       "components": [
         {
           "id": "6bRtcsKDFjsm",
           "name": "Homepage",
           "type": "managed",
           "projectId": "czrpvLfdRGgF3py81DP1YF",
-          "renderModuleFilePath": "plasmic/cms_starter/PlasmicHomepage.tsx",
+          "renderModuleFilePath": "plasmic/hoot_health_codegen/PlasmicHomepage.tsx",
           "importSpec": {
             "modulePath": "../pages/index.tsx"
           },
-          "cssFilePath": "plasmic/cms_starter/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/hoot_health_codegen/PlasmicHomepage.css",
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
@@ -48,8 +48,8 @@
       "indirect": false,
       "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
-      "styleTokensProviderFilePath": "plasmic/cms_starter/PlasmicStyleTokensProvider.tsx",
-      "projectModuleFilePath": "plasmic/cms_starter/plasmic.tsx",
+      "styleTokensProviderFilePath": "plasmic/hoot_health_codegen/PlasmicStyleTokensProvider.tsx",
+      "projectModuleFilePath": "plasmic/hoot_health_codegen/plasmic.tsx",
       "codeComponents": [
         {
           "id": "VsdgDUZnrYsq",

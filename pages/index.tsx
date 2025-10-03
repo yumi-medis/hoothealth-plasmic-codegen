@@ -5,7 +5,6 @@ import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-we
 
 import { PlasmicHomepage } from "../components/plasmic/cms_starter/PlasmicHomepage";
 import { useRouter } from "next/router";
-import RootLayout from "@/components/layout/Root";
 
 function Homepage() {
   // Use PlasmicHomepage to render this component as it was
@@ -31,9 +30,7 @@ function Homepage() {
       params={useRouter()?.query}
       query={useRouter()?.query}
     >
-      <RootLayout>
-        <PlasmicHomepage />
-      </RootLayout>
+      <PlasmicHomepage />
     </PageParamsProvider__>
   );
 }

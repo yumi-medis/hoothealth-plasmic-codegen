@@ -8,28 +8,28 @@
       "fileLocks": [
         {
           "assetId": "czrpvLfdRGgF3py81DP1YF",
+          "type": "projectCss",
+          "checksum": "9fadc890915f4285b6fcaddffae97f99"
+        },
+        {
+          "assetId": "czrpvLfdRGgF3py81DP1YF",
           "checksum": "8e0ca782907c3922a692ac3e382ec528",
           "type": "projectModule"
         },
         {
           "assetId": "czrpvLfdRGgF3py81DP1YF",
-          "checksum": "462c27e066ebbf8406d551fb8baeb64d",
+          "checksum": "0cb2d27254891d0bf9c71954057c605d",
           "type": "styleTokensProvider"
         },
         {
           "type": "renderModule",
           "assetId": "6bRtcsKDFjsm",
-          "checksum": "c74436eae28a438d6254fde0fe424d81"
+          "checksum": "08a1f8ef49eccf709c6c1ae4d92e5452"
         },
         {
           "type": "cssRules",
           "assetId": "6bRtcsKDFjsm",
-          "checksum": "c74436eae28a438d6254fde0fe424d81"
-        },
-        {
-          "assetId": "czrpvLfdRGgF3py81DP1YF",
-          "type": "projectCss",
-          "checksum": "d5f512db81415728565924d3fd83dec0"
+          "checksum": "08a1f8ef49eccf709c6c1ae4d92e5452"
         }
       ],
       "codegenVersion": "0.0.2"

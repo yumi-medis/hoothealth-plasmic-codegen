@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { Card } from "@/components/ui/card";
-import { Container } from "@/components/ui/container";
-import { Typography } from "@/components/ui/typography";
-import { Wrapper } from "@/components/ui/wrapper";
-import CTAButton from "@/components/button/CTA";
-import { steps } from "@/constants/how-it-works";
+import { Card } from '@/components/ui/card';
+import { Container } from '@/components/ui/container';
+import { Typography } from '@/components/ui/typography';
+import { Wrapper } from '@/components/ui/wrapper';
+import CTAButton from '@/components/CTAButton';
+import { steps } from '@/constants/how-it-works';
 
 const HowItWorks = () => {
   return (
@@ -18,10 +18,7 @@ const HowItWorks = () => {
         <ul className="mt-2 grid grid-cols-1 gap-4 md:grid-cols-3 lg:mt-3">
           {steps.map((step, index) => (
             <li className="h-full w-full" key={index}>
-              <Card
-                className="items-center text-center font-bold"
-                variant="accent"
-              >
+              <Card className="items-center text-center font-bold" variant="accent">
                 <Typography className="bg-reef-500/20" variant="icon">
                   {index + 1}
                 </Typography>

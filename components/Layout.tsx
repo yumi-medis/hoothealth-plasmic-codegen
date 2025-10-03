@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "@/components/Header";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Wrapper } from "@/components/ui/wrapper";
@@ -19,11 +17,11 @@ const lexend = Lexend({
   variable: "--font-lexend",
 });
 
-interface RootLayoutProps {
+interface LayoutProps {
   children: ReactNode;
 }
 
-const RootLayout = ({ children }: RootLayoutProps) => {
+const Layout = ({ children }: LayoutProps) => {
   return (
     <Wrapper className={cn(lexend.variable, "min-h-screen")}>
       <Header />
@@ -33,4 +31,4 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   );
 };
 
-export default RootLayout;
+export default Layout;

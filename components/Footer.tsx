@@ -1,17 +1,20 @@
-'use client';
+"use client";
 
-import Logo from '@/components/Logo';
-import { Button } from '@/components/ui/button';
-import { Container } from '@/components/ui/container';
-import { Typography } from '@/components/ui/typography';
-import { Wrapper } from '@/components/ui/wrapper';
-import { footerLinks, socialLinks } from '@/constants/footer';
-import { Mail } from 'lucide-react';
+import Logo from "@/components/Logo";
+import { Button } from "@/components/ui/button";
+import { Container } from "@/components/ui/container";
+import { Typography } from "@/components/ui/typography";
+import { Wrapper } from "@/components/ui/wrapper";
+import { footerLinks, socialLinks } from "@/constants/footer";
+import { Mail } from "lucide-react";
 
-const FinalCTA = () => {
+const Footer = () => {
   return (
     <Wrapper as="section" color="reef-900">
-      <Container className="flex flex-col items-start gap-6 xl:gap-10" variant="footer">
+      <Container
+        className="flex flex-col items-start gap-6 xl:gap-10"
+        variant="footer"
+      >
         <div className="flex w-full flex-col items-start gap-4 xl:flex-row xl:items-center xl:justify-between xl:gap-5">
           <ul className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-5">
             <li>
@@ -19,7 +22,11 @@ const FinalCTA = () => {
             </li>
             <li className="flex flex-row items-center gap-2">
               <Mail />
-              <Button href="mailto:admin@hoothealth.com.au" size="fit" variant="link">
+              <Button
+                href="mailto:admin@hoothealth.com.au"
+                size="fit"
+                variant="link"
+              >
                 admin@hoothealth.com.au
               </Button>
             </li>
@@ -52,4 +59,4 @@ const FinalCTA = () => {
   );
 };
 
-export default FinalCTA;
+export default Footer;
